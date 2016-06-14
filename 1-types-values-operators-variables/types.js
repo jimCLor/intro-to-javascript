@@ -16,6 +16,7 @@ ourTypes = { //This is a single line comment.
     
     And here's a brief reminder (remember, we are focusing on the ES5 spec, as ES6 hasn't been fully implemented as a standard in most browsers yet. We are therefore ignoring ES6 specifics.)
     In Javascript there are 5 Primitive Values.
+
       Undefined - a variable that has not been assigned a value             - undefined
 
       Null - the intentional absence of a value, not the same as undefined! - null
@@ -87,20 +88,23 @@ ourTypes = { //This is a single line comment.
   */
 
   /*
-    Ok, so let's start working! If you haven't already, open specRunner.html in your browser. Notice all of the red?! Great! Follow the instructions in the readme to install the dependencies, and then start filling in the "blanks" blow to make the tests pass!
+    Ok, so let's start working! If you haven't already, open specRunner.html in your browser. Notice all of the red?! Great! Follow the instructions in the readme to install the dependencies, and then start filling in the "blanks" below to make the tests pass!
   */
-  thisShouldBeUndefined: 0, //replace the values to make tests pass!
+  thisShouldBeUndefined: undefined, //replace the values to make tests pass!
 
-  thisShouldBeNull: 'null',
+  thisShouldBeNull: null,
 
-  aBoolean: 88,
+  aBoolean: false,
 
-  anotherBoolean: 'what\'s the difference between true and truthy?',
+  anotherBoolean: true,
 
-  aString: 0,
+  aString: 'string',
 
-  aNumber: '123'
+  aNumber: 5555
 };
+var example;
+example = 'Javascript is fun!';
+
 /******************
 Now for the fun bit! There was some code to get you started on the last section.
 For this section, read the tests (either in the test/spec.js file, or right there in the browser). Figure out what the tests are looking for, and make them pass.
