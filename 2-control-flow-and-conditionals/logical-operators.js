@@ -152,4 +152,20 @@
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
 
+var lOne = true;
 
+var lAOne;
+if (lOne != true){
+  lAOne = true;
+} else { 
+  lAOne = false;
+}
+
+var lTwo;
+if (lAOne || lOne){
+  lTwo = true;
+}
+
+var lThree = 100;
+
+var lATwo = false;
