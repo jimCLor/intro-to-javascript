@@ -123,17 +123,42 @@ understand what we're looking for!
 */
 var foo;
 
+var bar = 'string';
 
+var num1 = 10;
 
+var num2 = 20;
 
+var total = num1 + num2;
 
+var num3 = 5;
+
+var minus = total - num3;
+
+var divided = total / num3;
+
+var remainder = 2;
+
+var remainderToString = '2';
 
 /*
   Use this next section for 'comparison operators'.
   Use the variables from the last section and follow the prompts below.
 */
 
+var firstResult = num1 > num3;
 
+var secondResult = total - num2 == num1;
+
+var numberAsString = '10';
+
+var equals = numberAsString == num1;
+
+var deepEquals = num1 === numberAsString;
+
+var thirdResult = deepEquals <= num1;
+
+var fourthResult = num1 <= numberAsString;
 
 
 
@@ -144,21 +169,24 @@ var foo;
   You can find a helpful chart at
   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 */
+
+ 
+
 // For this section, assign the variables the value that the comment would return.
 // Try entering the statement into the console to get the result.
 
 // The first one is done for you as an example.
-var a = true; // (10 * 10) == '100'
+var a = true; (10 * 10) == '100'
 
-var b; // 2 * (10 / 2) + 2;
+var b =  2 * (10 / 2) + 2;
 
-var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+var c =  8 + 1 * 5 - 4 / 2 <= 9;
 
-var d; // true === 'true'
+var d =  true === 'true'
 
-var e; // 1 == true
+var e = 1 == true
 
-var f; // 1 === true
+var f = 1 === true
 
 
 

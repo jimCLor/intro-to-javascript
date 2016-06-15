@@ -222,7 +222,7 @@ describe('flow and conditionals', function() {
   describe('if, if else, and else', function() {
 
     
-    it('should have a variable called that compares flowB strictly equal to flowC', function() {
+    it('should have a variable called flowAnswerB that compares flowB strictly equal to flowC', function() {
       expect(flowAnswerB).to.equal(undefined);
     });
 
