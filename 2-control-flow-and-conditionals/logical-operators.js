@@ -82,39 +82,59 @@
 
 
 // declare a variable called lOne
-
 // assign lOne a value of true
-
+var lOne = true;
 // write an if/else statement that declares a variable named lAOne and assigns it a value of 
 // true if lOne is not true, and false otherwise.
-
+var lAOne;
+if (lOne !=true){
+  lAOne = true;
+} else {
+  lAOne = false;
+}
 
 // declare a variable called lTwo
-
+var lTwo;
 // lTwo should get true if lOne or LAOne is true
-
+if (lOne || lAOne){
+  lTwo = true;
+}
 // declare a variable called lThree
-
 // Assign lThree a value of 100
+var lThree = 100;
 
 // declare a variable called lATwo.
-
 // if lThree is less than lOne and also less than LAOne lATwo should get true. Otherwise lATwo should get false.
+var lATwo;
+if ((lThree < lOne) && (lThree < lAOne)){
+  lATwo = true;
+} else {
+  lATwo = false;
+}
 
 
 // declare a variable called lFour
-
+var lFour;
 // Still using if/else if/else statements, assign lFour a value of a string with the word true in it 
 // if either lATwo or lOne is true.
 // if both are false, assign lFour a value of a string with the word false in it.
-
+if (lATwo || lOne){
+  lFour = 'true';
+} else if (!lATwo && !lOne){
+  lFour = 'false';
+}
 
 // declare a variable called lFive
 // this one will be tricky. Ready?
 // write an if statement that checks if lFive is not equal to undefined.
 // If lFive is not equal to undefined, then assign it the number 5.
 // If lFive is undefined, then assign it the number 10.
-
+var lFive;
+if (lFive != undefined){
+  lFive = 5;
+} else {
+  lFive = 10;
+}
 
 //Crazy how that worked, right? Well done!
 // You just dynamically assigned a variable a value
@@ -125,6 +145,24 @@
 // declare a variable called lSix
 // here are your conditions to check (I'm leaving out the words if, so as not to give you an extra hint :)
 // Remember, you can group conditions to check within the parentheses using paretheses. For example:
+var lSix;
+if (lATwo == lThree){
+  lSix = 23;
+} else if (lOne === lAOne){
+  lSix = 11;
+} else if (lTwo == lFour){
+  lSIx = 24;
+} else if (lFour === lOne){
+  lSix = 41;
+} else if ((lFive + 90) == 110){
+  lSix = 110;
+} else if (((24 + 26) >=50) && !lOne){
+  lSix = 5050;
+} else if ( ( 25 +25 == 50) && (lOne != true) ){
+  lSix = 252550;
+} else {
+  lSix = 1010;
+}
 /* 
    if ( (2 < 0) || (-1 < -100) ) {
       //do some stuff
@@ -152,20 +190,5 @@
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
 
-var lOne = true;
 
-var lAOne;
-if (lOne != true){
-  lAOne = true;
-} else { 
-  lAOne = false;
-}
 
-var lTwo;
-if (lAOne || lOne){
-  lTwo = true;
-}
-
-var lThree = 100;
-
-var lATwo = false;
