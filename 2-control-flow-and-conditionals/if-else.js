@@ -128,7 +128,8 @@ if(flowAnswerF > flowAnswerG){
   flowAnswerI = true;
 } else if (flowAnswerG > flowAnswerF){
   flowAnswerI = false;
-} else {flowAnswerI = 'woo hoo!'
+} else {
+  flowAnswerI = 'woo hoo!'
 }
 // if flowAnswerF is greater than flowAnswerG flowAnswerI gets true.
 // if flowAnswerG is greater than flowAnswerF flowAnswerI gets false.

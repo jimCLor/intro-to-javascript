@@ -384,7 +384,11 @@ describe('flow and conditionals', function() {
     });
 
     it('switchA should have any string as its value', function() {
+<<<<<<< HEAD
         expect(typeof switchA).to.equal('string');
+=======
+      expect(typeof switchA).to.equal('string');
+>>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
     });
 
     it('switchB should have a value of false', function() {

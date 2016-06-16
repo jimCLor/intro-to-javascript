@@ -102,8 +102,11 @@ ourTypes = { //This is a single line comment.
 
   aNumber: 5555
 };
+<<<<<<< HEAD
 var example;
 example = 'Javascript is fun!';
+=======
+>>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
 
 /******************
 Now for the fun bit! There was some code to get you started on the last section.

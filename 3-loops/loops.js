@@ -1,3 +1,0 @@
-// iteration
-// while
-// for
