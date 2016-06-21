@@ -1,4 +1,4 @@
-describe('advanced types', function() {
+describe('advanced types and loops', function() {
   var expect = chai.expect;
 
   describe('arrays', function() {
@@ -46,7 +46,7 @@ describe('advanced types', function() {
     });
   });
 
-  describe('creatig objects', function () {
+  describe('creating objects', function () {
 
     it('should be an object with the correct number of key value pairs', function () {
       expect(Object.keys(myObj).length).to.equal(6);
@@ -113,3 +113,55 @@ describe('advanced types', function() {
   });
 
 });
+
+describe('loops', function() {
+  var expect = chai.expect;
+
+  describe('for loops', function() {
+
+    it('should pass the example', function() {
+      expect(forExample).to.equal(55);
+    });
+
+    it('for1 should have the values 0 - 10 added to it', function() {
+      expect(for1).to.equal(55);
+    });
+
+    it('for2 should have the values 9 - 22 added to it', function() {
+      expect(for2).to.equal(217);
+    });
+
+    it('for3 should have the even numbers from 0 - 10 added to it', function() {
+      expect(for3).to.equal(30);
+    });
+
+    it('for4 should have the numbers 0 - -100 added to it', function() {
+      expect(for4).to.equal(-5050);
+    });
+
+    it('for5 should sum the values from forArr', function() {
+      expect(for5).to.equal(forArr.reduce(function (acc, val) {
+        return acc += val;
+      }, 0));
+    });
+  });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

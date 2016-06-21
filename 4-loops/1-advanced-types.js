@@ -97,10 +97,10 @@ var val7;
 
 // For this first section on objects, assign a variable called myObj an object.
 // Give myObj the following keys:
-// myName with a value of a string with your name
-// myCity with a value of a string with your city
-// myAge with a value of your age
-//myTruth with a boolean (do you like js so far?)
+// myName with a value of a your name in a string
+// myCity with a value of a your city in a string
+// myAge with a value of your age as a number
+// myTruth with a boolean (do you like js so far?)
 // myMusic with a value of an array that has your four favorite bands as values.
 // myFunc with a value of a function, which when invoked returns true.
 
