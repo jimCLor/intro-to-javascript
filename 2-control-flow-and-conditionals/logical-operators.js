@@ -189,6 +189,3 @@ if (lATwo == lThree){
 // is 25 + 25 equal to 50 and does lAOne not equal true?
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
-
-
-

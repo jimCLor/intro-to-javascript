@@ -1,3 +1,5 @@
+
+                          // type //
 ourTypes = { //This is a single line comment.
   // So first thing's first, let's talk comments. There are two ways to create a comment in Javascript.
   // This is a single-line comment. Whatever is written after two slashes will be ignored by the JS interpreter.
@@ -102,11 +104,8 @@ ourTypes = { //This is a single line comment.
 
   aNumber: 5555
 };
-<<<<<<< HEAD
 var example;
 example = 'Javascript is fun!';
-=======
->>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
 
 /******************
 Now for the fun bit! There was some code to get you started on the last section.
@@ -190,6 +189,3 @@ var d =  true === 'true'
 var e = 1 == true
 
 var f = 1 === true
-
-
-
