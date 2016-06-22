@@ -36,8 +36,12 @@ Take a moment to reflect on how the types and values section was set up. Discuss
 ***********************/
 // By now you know the drill. Use the lines below to pass the tests!
 
-var scope1; //assign this variable a string with the definition of scope to pass the test.
+var scope1 = 'scope is the set of variables, objects, and functions you have access to.'; //assign this variable a string with the definition of scope to pass the test.
 // Not sure of the definition? Check http://www.w3schools.com/js/js_scope.asp
+
+var scope2 ;
+
+var scope3 = 12;
 
 
 

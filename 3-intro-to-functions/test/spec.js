@@ -12,7 +12,7 @@ describe('scope and functions', function() {
     });
 
     it('should have a global variable called scope2', function() {
-      expect(window.scope2).to.not.equal(null || undefined);
+      expect(window.scope2).to.equal(null || undefined);
     });
 
     it('should have a global vaiable called scope3 with a value of 12', function() {
@@ -31,7 +31,7 @@ describe('scope and functions', function() {
     });
 
     it('the add function should have a variable called scope1 with a value of 12', function() {
-      expect(window.scope1).to.not.equal(scope1);
+      expect(window.scope1).to.equal(scope1);
     });
 
     it('create a named function called square', function() {

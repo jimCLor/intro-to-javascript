@@ -48,4 +48,18 @@
 // If you need a hand making the tests pass, give a holler. Functions can be tricky to get down, but once you get them you'll love them.
 
 
+function add(a, b){
+  return a + b;
+  var scope1 = 12;
+};
+ function square(a){
+ return a*a;
+ };
 
+var a = undefined;
+ function thrice(a){
+  return a = 10;
+ };
+var myFunc = function(){
+  return 'James and Margaret';
+}
