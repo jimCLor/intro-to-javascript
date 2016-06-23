@@ -16,7 +16,7 @@
 
 // Use the space below to create a couple of arrays, and make sure to assign them to the variables that the tests are looking for! Give them as many or as few values as you'd like for this one.
 
-
+var numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 /*
 
@@ -51,15 +51,17 @@ var testString = 'this is a string';
 */
 
 // For this next section, access the values from testString and testArray and assign them to the variables described in the tests.
+var arr = ['1', '2', '3']
+var arr1 = ['1', '2', '3']
+var arr2 = ['1', '2', '3', '4', '5']
 
-
-var val1;
-var val2;
-var val3;
-var val4;
-var val5;
-var val6;
-var val7;
+var val1 = testArray[0];
+var val2 = testString[2];
+var val3 = testArray[6];
+var val4 = testString[12];
+var val5 = testArray[4];
+var val6 = testArray[3];
+var val7 = testString[7];
 
 
 /*
@@ -104,7 +106,22 @@ var val7;
 // myMusic with a value of an array that has your four favorite bands as values.
 // myFunc with a value of a function, which when invoked returns true.
 
+var myObj ={
+  myName: 'James',
+  myCity: 'HongKong',
+  myAge: 23,
+  myTruth: true,
+  myMusic: ['the script', 'maroon 5', 'all-time-low', 'passenger'],
+  myFunc: function sayTrue(){
+    return true;
+  }
+};
 
+var myCity = myObj.myCity;
+var myName = myObj.myName;
+var myAge = myObj.myAge;
+var myMusic = myObj.myMusic;
+var myFunc = myObj.myFunc;
 
 
 

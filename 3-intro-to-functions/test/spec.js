@@ -71,7 +71,7 @@ describe('scope and functions', function() {
     });
 
     it('myNewFunc should return myFaveNum when invoked', function() {
-      expect(myNewFunc()).to.equal(number);
+      expect(typeof myNewFunc()).to.equal(number);
     });
         
   });

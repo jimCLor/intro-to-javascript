@@ -72,46 +72,51 @@
 
 
 
-// var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+ var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-// switch (a){
-//   case 1:
-//     switch1 = 1;
-//     break;
-//   case 2:
-//     switch2 = 2;
-//     break;
-//   case 3:
-//     switch3 = 3;
-//     break;
-//   case 4:
-//     switch4 = 4;
-//     break;
-//   case 5:
-//     switch5 = (switch3 >= switch1);
-//     break;
-//   case 6:
-//     switch6 = (switch4 % switch3)
-//     break;
-//   case 7:
-//     switch7 = 
-//     break;
-//   case 8:
-//     switchExample = 'true';
-//     break;
-//   case 9:
-//     switchA = 'random';
-//     break;
-//   case 10:
-//     switchB = false;
-//     break;
-//   case 11:
-//     switchC = true;
-//     break;
-//   case 12:
-//     switchD = -1;
-//     break;
-// }
+switch (a){
+  case 1:
+    switch1 = 1;
+    break;
+  case 2:
+    switch2 = 2;
+    break;
+  case 3:
+    switch3 = 3;
+    break;
+  case 4:
+    switch4 = 4;
+    break;
+  case 5:
+    switch5 = (switch3 >= switch1);
+    break;
+  case 6:
+    switch6 = (switch4 % switch3)
+    break;
+  case 7:
+    switch7 = 
+if(switch6 ==true){
+  switch7 = true;
+} else {
+  switch7 = false;
+}
+    break;
+  case 8:
+    switchExample = 'true';
+    break;
+  case 9:
+    switchA = 'random';
+    break;
+  case 10:
+    switchB = false;
+    break;
+  case 11:
+    switchC = true;
+    break;
+  case 12:
+    switchD = -1;
+    break;
+}
 
 
 
@@ -144,3 +149,4 @@ var switchB = false;
 var switchC = true;
 
 var switchD = -1;
+// 

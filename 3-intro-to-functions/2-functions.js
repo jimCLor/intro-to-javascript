@@ -61,5 +61,11 @@ var a = undefined;
   return a = 10;
  };
 var myFunc = function(){
-  return 'James and Margaret';
-}
+  return 'Ben and Jerry';
+};
+  var myFaveNum = 100;
+
+function myNewFunc(){
+  return myFaveNum;
+  console.log(myFaveNum);
+};

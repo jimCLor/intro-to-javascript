@@ -34,7 +34,7 @@ describe('advanced types and loops', function() {
     });
 
     it('assign the 5th value from testArray to val5', function() {
-      expect(val5).to.equal(4);
+      expect(val5).to.equal('e');
     });
 
     it('assign the value at index 3 from testArray to val6', function() {
