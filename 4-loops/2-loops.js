@@ -69,11 +69,17 @@ for (var i = 0; i <= 10; i++) {
 
 // for1 should have the values 0 - 9 added to it.
 var for1 = 0;
+for (var i = 0; i<= 9; i++) {
+  for1 += i;
+}
 
 
 
 // for2 should have the values 9 - 22 added to it
 var for2 = 0;
+for(var i = 9; i<= 22; i++){
+  for2 += i;
+}
 
 // Remember the different ways to change a numerical value? Well, they're going to start getting handy right about now!
 

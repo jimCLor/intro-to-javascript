@@ -124,7 +124,7 @@ describe('loops', function() {
     });
 
     it('for1 should have the values 0 - 10 added to it', function() {
-      expect(for1).to.equal(55);
+      expect(for1).to.equal(45);
     });
 
     it('for2 should have the values 9 - 22 added to it', function() {
