@@ -64,7 +64,7 @@ function add(a,b) {
  };
 
 var myFunc = function(){
-  return 'Ben and Jerry';
+  return 'Ben' + 'Jerry';
 };
   
 

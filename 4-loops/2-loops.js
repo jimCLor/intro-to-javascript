@@ -8,10 +8,10 @@
 */
 
 /**************** Necessary Definitions *********************/
-// Iterate -
-// Iteration - 
-// Increment - 
-// Decrement - 
+// Iterate - performing something repeatedly
+// Iteration - repetition of a mathematical or computational procedure
+// Increment - an increase or addition
+// Decrement - a decreace or subtraction
 
 
 // We also need to go over different ways to change a numerical value!
@@ -91,10 +91,10 @@ for (var i = 0; i<=10; i+=2) {
 
 // for4 should have the numbers 0 - -100 added to it
 var for4 = 0;
-for (var i = -100; i <=0 ; i ++){
+for (var i = 0; i >= -100; i--){
   for4 +=i;
 }
-
+  
 // use a for loop to assign for5 the sum of the values in forArr
 var for5 = 0;
 var forArr = [10, 29, 33, 8];
@@ -125,11 +125,6 @@ In order to use a while loop iteratively, you need to declare a variable to main
 track of your iterations (don't forget to incrementdecrement your counter as appropriate!)
 
 **********************************/
-
-
-
-
-
 
 
 

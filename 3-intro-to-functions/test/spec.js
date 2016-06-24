@@ -30,6 +30,7 @@ describe('scope and functions', function() {
       expect(add(2, 2)).to.equal(4);
     });
 
+//changed to equal instead of not.equal
     it('the add function should have a variable called scope1 with a value of 12', function() {
       expect(window.scope1).to.equal(scope1);
     });
