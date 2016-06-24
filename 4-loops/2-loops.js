@@ -85,14 +85,22 @@ for(var i = 9; i<= 22; i++){
 
 // for3 should have only even values from 0 - 10 added to it!
 var for3 = 0;
+for (var i = 0; i<=10; i+=2) {
+  for3 +=i;
+}
 
 // for4 should have the numbers 0 - -100 added to it
 var for4 = 0;
+for (var i = -100; i <=0 ; i ++){
+  for4 +=i;
+}
 
 // use a for loop to assign for5 the sum of the values in forArr
 var for5 = 0;
 var forArr = [10, 29, 33, 8];
-
+for (var i = 0; i < forArr.length; i++){
+  for5 += forArr[i];
+}
 
 
 /********************** While loops 

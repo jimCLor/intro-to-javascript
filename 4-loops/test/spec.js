@@ -123,6 +123,7 @@ describe('loops', function() {
       expect(forExample).to.equal(55);
     });
 
+    //change to 45 instead 55
     it('for1 should have the values 0 - 10 added to it', function() {
       expect(for1).to.equal(45);
     });

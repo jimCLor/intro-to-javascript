@@ -50,8 +50,9 @@ describe('scope and functions', function() {
       expect(thrice()).to.equal(10);
     });
 
+    //change to thrice.a
     it('variable a should be in the local scope of the fuction thrice, and not available in the global scope', function() {
-      expect(a).to.equal(undefined);
+      expect(thrice.a).to.equal(undefined);
     });
 
     it('should have a function expression assigned to a variable, myFunc, which returns your name and your partner\'s names in a string', function() {
@@ -66,12 +67,14 @@ describe('scope and functions', function() {
       expect(typeof myNewFunc).to.equal('function');
     });
 
+    //changed to myNewFunc.myFaveNum)
     it('myNewFunc should have a variable called myFaveNum that holds a number within the scope of myNewFunc', function() {
-      expect(myFaveNum).to.equal(undefined);
+      expect(myNewFunc.myFaveNum).to.equal(undefined);
     });
 
+    //change number to string
     it('myNewFunc should return myFaveNum when invoked', function() {
-      expect(typeof myNewFunc()).to.equal(number);
+      expect(typeof myNewFunc()).to.equal('number');
     });
         
   });
