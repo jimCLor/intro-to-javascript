@@ -94,7 +94,7 @@ var for4 = 0;
 for (var i = 0; i >= -100; i--){
   for4 +=i;
 }
-  
+
 // use a for loop to assign for5 the sum of the values in forArr
 var for5 = 0;
 var forArr = [10, 29, 33, 8];
@@ -148,3 +148,24 @@ track of your iterations (don't forget to incrementdecrement your counter as app
   There are several ways to do it, we will use the + operator
 ----LINK TO STRING CONCATINATION
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
